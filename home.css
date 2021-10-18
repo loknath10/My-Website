@@ -1,0 +1,125 @@
+body{
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    background-image: url("https://i.pinimg.com/736x/63/27/19/6327191228b8702c380655ec6ded91b1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#logo{
+    float:left;
+    width: 200px; 
+    height:100px;              
+    background:;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    color:crimson;
+    background-color: whitesmoke;
+}
+
+
+.first{
+    margin:8px;
+    padding:18px;
+}
+header{
+    clear:both;
+}
+nav{
+    border-width:1px 1px 1px 1px;
+    border-style:solid;
+    border-color: black;
+    padding: 2px 20px;
+    margin:15px;
+}
+a{
+    font-size: 33px;
+    color:firebrick;
+    padding-right:15px;
+    margin:23px;
+    text-decoration: none;
+}
+#a,#b,#c,#d,#e{
+    border: 2px solid black;
+    border-width: 0px 1px 0px 0px;
+    padding-right: 60px;
+    color:black;
+}
+.Places{
+    float:left;
+}
+.Places-title h2{
+    font-size: 33px;
+    margin-bottom:15px;
+}
+.Places-content
+{
+    padding:20px;
+
+}
+.Places-content ol{
+    padding:0px;
+    margin:0px;
+}
+.Places-content ol li span{
+    font-size: 28px;
+    display:block;
+    margin-bottom:-15px;
+    padding-left: 20px;
+}
+.Places-content ol li span::before{
+    content:;
+    position:left;
+    width:8px;
+    height:8px;
+    border:3px solid crimson;
+    top:2px;
+    left:0;
+}
+.Places-content ol li h3{
+    font-size:26px;
+    line-height: 20px;
+    border:3px solid crimson;
+    border-width: 0 0 0 3px;
+    padding:5px 0 5px 10px;
+    margin-left: 5px;
+
+}
+.Intro2,h5{
+    border:1px solid black;
+    border-width:0px 1px 0px 0px;
+    margin: 2px;
+    padding:2px;
+    color: red;
+}
+.Intro1{
+    border:10px solid black;
+    border-width:0px 1px 0px 0px;
+    margin: 2px;
+    padding:2px;
+    color:orangered;
+}
+#pic{
+    float:right;
+    width:200px;
+    height:200px;
+}
+#I{
+    width: 15%;
+    height: 15%;
+    padding-right:30px;
+    float:left;
+}
+footer{
+    clear:both;
+    border:1px solid black;
+    display:inline-block;
+    column-count: 3;
+    
+}
+
+
+p,h4{background-color: whitesmoke;
+color:red;}
